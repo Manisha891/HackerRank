@@ -1,0 +1,21 @@
+"""
+
+Task
+Read in two integers, a and b, and print three lines.
+The first line is the integer division a//b (While using Python2 remember to import division from __future__).
+The second line is the result of the modulo operator: a%b .
+The third line prints the divmod of a and b.
+
+"""
+
+a = int(input())
+b = int(input())
+def cal(a,b):
+
+    int_divi = a//b
+    modu_op = a%b
+    print(int_divi)
+    print(modu_op)
+    print((int_divi, modu_op))
+
+cal(a,b)
